@@ -25,14 +25,13 @@ def log(message, type="INFO"):
 		
 def saveLogs():
 	global infotext, debugtext, logged
-	with open("log.txt", "w") as file:
+	with open("log.log", "w") as file:
 		for i in logged:
 			file.write(str(i) + "\n")
 		file.close()
 	infotext.insert("end-1c","Logger shut down, saved successfully")
 	debugtext.insert("end-1c","Logger shut down, saved successfully")
 	
-
 infogui = tk.Tk()
 infotext = tk.Text(infogui, width = 40, height = 6)
 infotext.grid(row = 1, column = 0, columnspan = 2)
