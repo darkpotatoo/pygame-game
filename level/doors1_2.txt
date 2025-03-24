@@ -1,0 +1,4 @@
+room_1_right: 2
+room_1_lower: 6
+room_2_left: 1
+room_6_upper: 1

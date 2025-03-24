@@ -1,0 +1,6 @@
+150,350
+/asset/sprite/enemy1.png;3;10;0;False;50;True;15
+/asset/sprite/enemy1.png;3;10;0;False;50;True;15
+/asset/sprite/enemy1.png;3;10;0;False;50;True;15
+/asset/sprite/enemy1.png;3;10;0;False;50;True;15
+/asset/sprite/boss1.png;4;100;5;False;120;True;20

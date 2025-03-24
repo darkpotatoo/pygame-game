@@ -1,0 +1,191 @@
+[INFO] Program starting...
+[INFO_EXTENDED] Loaded completed levels {
+	[[1, 1, 11980, 68], [1, 1, 8188, 21], [1, 1, 9641, 21], [1, 1, 8485, 21], [1, 1, 9772, 25], [1, 1, 8938, 21], [1, 1, 9576, 0], [1, 1, 10307, 37], [1, 1, 9292, 21], [1, 1, 9904, 0], [1, 1, 9060, 38], [1, 1, 6084, 21], [1, 1, 9817, 25], [1, 1, 9570, 21], [1, 1, 10080, 25], [1, 1, 9948, 0], [1, 1, 10217, 25], [1, 1, 9647, 21], [1, 1, 10861, 43], [1, 1, 9957, 0], [1, 1, 9867, 30]]
+	}
+[INFO] Loading config...
+[INFO] Fully loaded config
+[INFO] Loading game...
+[INFO_EXTENDED] Loaded screen {
+	/asset/screen/main.png
+	/screen/buttonsmain.txt
+	main
+	}
+[INFO_EXTENDED] Loaded init {
+	<Clock(fps=0.00)>
+	True
+	<Surface(500x500x32 SW)>
+	}
+[INFO_EXTENDED] Entity state loaded {
+	100
+	0
+	True
+	False
+	}
+[INFO] Program starting...
+[INFO_EXTENDED] Loaded completed levels {
+	[[1, 1, 11980, 68], [1, 1, 8188, 21], [1, 1, 9641, 21], [1, 1, 8485, 21], [1, 1, 9772, 25], [1, 1, 8938, 21], [1, 1, 9576, 0], [1, 1, 10307, 37], [1, 1, 9292, 21], [1, 1, 9904, 0], [1, 1, 9060, 38], [1, 1, 6084, 21], [1, 1, 9817, 25], [1, 1, 9570, 21], [1, 1, 10080, 25], [1, 1, 9948, 0], [1, 1, 10217, 25], [1, 1, 9647, 21], [1, 1, 10861, 43], [1, 1, 9957, 0], [1, 1, 9867, 30]]
+	}
+[INFO] Loading config...
+[INFO] Fully loaded config
+[INFO] Loading game...
+[INFO_EXTENDED] Loaded screen {
+	/asset/screen/main.png
+	/screen/buttonsmain.txt
+	main
+	}
+[INFO_EXTENDED] Loaded init {
+	<Clock(fps=0.00)>
+	True
+	<Surface(500x500x32 SW)>
+	}
+[INFO_EXTENDED] Entity state loaded {
+	100
+	0
+	True
+	False
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/player.png
+	1
+	True
+	100
+	200
+	}
+[INFO] Loaded player
+[INFO] Starting game loop
+[DEBUG] Mouse clicked at (83, 54)
+[DEBUG] Mouse clicked in bounds of button [25, 175, 25, 110]
+[DEBUG] Clicked button 0
+[INFO_EXTENDED] Loaded screen {
+	/asset/screen/lvlselect1.png
+	/screen/buttonslvlselect1.txt
+	lvlselect1
+	}
+[DEBUG] Mouse clicked at (291, 101)
+[INFO_EXTENDED] Entity state loaded {
+	100
+	0
+	True
+	False
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/player.png
+	1
+	True
+	100
+	200
+	}
+[DEBUG] Mouse clicked in bounds of button [270, 455, 65, 170]
+[DEBUG] Clicked button 1
+[DEBUG] 1_2: 1 is the _has for the opened level
+[DEBUG] 1_2: 6;360;60 is the _beacon for the current level
+[DEBUG] ['1'] are rooms with entity spawners
+[INFO_EXTENDED] Loaded level 1-2 {
+	1
+	{'room_1_right': 2, 'room_1_lower': 6, 'room_2_left': 1, 'room_6_upper': 1}
+	{'1_1': [0, 0, 0, 0], '2_2': [0, 0, 0, 0]}
+	}
+[DEBUG] Player moved to room 6
+[INFO_EXTENDED] Entity state loaded {
+	100
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/beacon.png
+	7
+	False
+	100
+	100
+	}
+[DEBUG] <entity.Entity object at 0x1023cb230> attacked by player, has hp: 100
+[DEBUG] Projectile spawned from<entity.Entity object at 0x1023cb230>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/beaconprojectile.png
+	6
+	False
+	999
+	100
+	}
+[DEBUG] <entity.Entity object at 0x1023cba80> attacked player
+[DEBUG] Entity <entity.Entity object at 0x1023cba80> died
+[DEBUG] <entity.Entity object at 0x1023cb230> attacked by player, has hp: 90
+[DEBUG] <entity.Entity object at 0x1023cb230> attacked by player, has hp: 80
+[DEBUG] <entity.Entity object at 0x1023cb230> attacked by player, has hp: 70
+[DEBUG] Projectile spawned from<entity.Entity object at 0x1023cb230>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/beaconprojectile.png
+	6
+	False
+	999
+	100
+	}
+[DEBUG] <entity.Entity object at 0x10246d910> attacked player
+[DEBUG] Entity <entity.Entity object at 0x10246d910> died
+[DEBUG] <entity.Entity object at 0x1023cb230> attacked by player, has hp: 60
+[DEBUG] <entity.Entity object at 0x1023cb230> attacked by player, has hp: 50
+[DEBUG] Projectile spawned from<entity.Entity object at 0x1023cb230>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/beaconprojectile.png
+	6
+	False
+	999
+	100
+	}
+[DEBUG] <entity.Entity object at 0x102428f30> attacked player
+[DEBUG] Entity <entity.Entity object at 0x102428f30> died
+[DEBUG] <entity.Entity object at 0x1023cb230> attacked by player, has hp: 42
+[DEBUG] <entity.Entity object at 0x1023cb230> attacked by player, has hp: 32
+[DEBUG] <entity.Entity object at 0x1023cb230> attacked by player, has hp: 22
+[DEBUG] Projectile spawned from<entity.Entity object at 0x1023cb230>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/beaconprojectile.png
+	6
+	False
+	999
+	100
+	}
+[DEBUG] <entity.Entity object at 0x1024297b0> attacked player
+[DEBUG] Entity <entity.Entity object at 0x1024297b0> died
+[DEBUG] <entity.Entity object at 0x1023cb230> attacked by player, has hp: 14
+[DEBUG] <entity.Entity object at 0x1023cb230> attacked by player, has hp: 4
+[DEBUG] Entity <entity.Entity object at 0x1023cb230> died
+[DEBUG] <entity.Entity object at 0x102416850> dashed
+[DEBUG] <entity.Entity object at 0x102416ad0> dashed
+[DEBUG] Player moved to room 1
+[DEBUG] <entity.Entity object at 0x102416850> dashed
+[DEBUG] <entity.Entity object at 0x102416ad0> dashed
+[DEBUG] Player moved to room 6
+[DEBUG] Player moved to room 1
+[DEBUG] Player moved to room 2
+[DEBUG] <entity.Entity object at 0x102416850> dashed
+[DEBUG] <entity.Entity object at 0x102416ad0> dashed
+[DEBUG] <entity.Entity object at 0x102416850> dashed
+[DEBUG] <entity.Entity object at 0x102416ad0> dashed
+[INFO] Program terminated
+[INFO] Saving config...

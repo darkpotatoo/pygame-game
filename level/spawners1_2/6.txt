@@ -1,0 +1,5 @@
+130,240
+/asset/sprite/enemy1.png;5;39;0;False;60;True;15
+/asset/sprite/enemy1.png;5;39;0;False;60;True;15
+/asset/sprite/enemy2.png;4;39;0;False;100;True;15
+/asset/sprite/enemy2.png;4;39;0;False;100;True;15

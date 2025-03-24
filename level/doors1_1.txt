@@ -1,0 +1,15 @@
+room_1_right: 2
+room_2_left: 1
+room_2_right: 3
+room_3_left: 2
+room_3_right: 4
+room_4_left: 3
+room_4_right: 5
+room_5_left: 4
+room_5_lower: 10
+room_10_left: 9
+room_10_upper: 5
+room_9_right: 10
+room_9_lower: 8
+room_1_lower: 8
+room_8_lower: 0
