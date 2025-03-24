@@ -4,3 +4,4 @@ save.txt
 __pycache__/
 log.log
 .DS_Store
+*.pyc
