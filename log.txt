@@ -53,13 +53,980 @@
 	}
 [INFO] Loaded player
 [INFO] Starting game loop
-[DEBUG] Mouse clicked at (89, 250)
-[DEBUG] Mouse clicked in bounds of button [15, 170, 210, 300]
-[DEBUG] Clicked button 2
+[DEBUG] Mouse clicked at (98, 45)
+[DEBUG] Mouse clicked in bounds of button [25, 175, 25, 110]
+[DEBUG] Clicked button 0
 [INFO_EXTENDED] Loaded screen {
-	/assets/screen/scoreviewer1.png
-	/screen/buttonsscoreviewer1.txt
-	scoreviewer1
+	/asset/screen/lvlselect1.png
+	/screen/buttonslvlselect1.txt
+	lvlselect1
 	}
+[DEBUG] Mouse clicked at (123, 162)
+[INFO_EXTENDED] Entity state loaded {
+	100
+	0
+	True
+	False
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/player.png
+	1
+	True
+	100
+	200
+	}
+[DEBUG] Mouse clicked in bounds of button [30, 215, 70, 170]
+[DEBUG] Clicked button 0
+[DEBUG] 1_1: 2, 9, 10
+ is the _has for the opened level
+[DEBUG] 1_1: 999;999;999
+ is the _beacon for the current level
+[DEBUG] ['2', '9', '10\n'] are rooms with entity spawners
+[INFO_EXTENDED] Entity state loaded {
+	40
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy1.png
+	5
+	False
+	40
+	50
+	}
+[INFO_EXTENDED] Entity state loaded {
+	40
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy1.png
+	3
+	False
+	40
+	50
+	}
+[INFO_EXTENDED] Entity state loaded {
+	40
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy1.png
+	3
+	False
+	40
+	50
+	}
+[INFO_EXTENDED] Entity state loaded {
+	40
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy1.png
+	3
+	False
+	40
+	50
+	}
+[INFO_EXTENDED] Entity state loaded {
+	10
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy1.png
+	3
+	False
+	10
+	50
+	}
+[INFO_EXTENDED] Entity state loaded {
+	10
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy1.png
+	3
+	False
+	10
+	50
+	}
+[INFO_EXTENDED] Entity state loaded {
+	10
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy1.png
+	3
+	False
+	10
+	50
+	}
+[INFO_EXTENDED] Entity state loaded {
+	10
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy1.png
+	3
+	False
+	10
+	50
+	}
+[INFO_EXTENDED] Entity state loaded {
+	100
+	5
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/boss1.png
+	4
+	False
+	100
+	120
+	}
+[INFO_EXTENDED] Entity state loaded {
+	11
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy1.png
+	3
+	False
+	11
+	100
+	}
+[INFO_EXTENDED] Entity state loaded {
+	11
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy1.png
+	3
+	False
+	11
+	90
+	}
+[INFO_EXTENDED] Entity state loaded {
+	11
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy1.png
+	3
+	False
+	11
+	80
+	}
+[INFO_EXTENDED] Entity state loaded {
+	11
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy1.png
+	3
+	False
+	11
+	70
+	}
+[INFO_EXTENDED] Entity state loaded {
+	11
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy1.png
+	3
+	False
+	11
+	60
+	}
+[INFO_EXTENDED] Entity state loaded {
+	11
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy1.png
+	3
+	False
+	11
+	50
+	}
+[INFO_EXTENDED] Entity state loaded {
+	11
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy1.png
+	3
+	False
+	11
+	40
+	}
+[INFO_EXTENDED] Entity state loaded {
+	11
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy1.png
+	3
+	False
+	11
+	30
+	}
+[INFO_EXTENDED] Entity state loaded {
+	11
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy1.png
+	3
+	False
+	11
+	20
+	}
+[INFO_EXTENDED] Entity state loaded {
+	11
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy1.png
+	3
+	False
+	11
+	10
+	}
+[INFO_EXTENDED] Entity state loaded {
+	11
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy1.png
+	3
+	False
+	11
+	110
+	}
+[INFO_EXTENDED] Entity state loaded {
+	11
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy1.png
+	3
+	False
+	11
+	120
+	}
+[INFO_EXTENDED] Loaded level 1-1 {
+	1
+	{'room_1_right': 2, 'room_2_left': 1, 'room_2_right': 3, 'room_3_left': 2, 'room_3_right': 4, 'room_4_left': 3, 'room_4_right': 5, 'room_5_left': 4, 'room_5_lower': 10, 'room_10_left': 9, 'room_10_upper': 5, 'room_9_right': 10, 'room_9_lower': 8, 'room_1_lower': 8, 'room_8_lower': 0}
+	{'3_1': [200, 310, 1, 230], '3_2': [200, 310, 300, 500], '4_3': [150, 250, 180, 325], '4_4': [335, 385, 170, 370]}
+	}
+[DEBUG] <entity.Entity object at 0x1069b4a50> dashed
+[DEBUG] <entity.Entity object at 0x1069b4cd0> dashed
+[DEBUG] Player moved to room 2
+[INFO] Entity spawner at 80 220 created entity<entity.Entity object at 0x106984510>
+[INFO] Entity spawner at 80 220 created entity<entity.Entity object at 0x106985e00>
+[INFO] Entity spawner at 80 220 created entity<entity.Entity object at 0x107b72570>
+[INFO] Entity spawner at 80 220 created entity<entity.Entity object at 0x10690f350>
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106984510>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/fireball.png
+	6
+	False
+	999
+	75.0
+	}
+[DEBUG] <entity.Entity object at 0x1066465d0> attacked player
+[DEBUG] Entity <entity.Entity object at 0x1066465d0> died
+[DEBUG] <entity.Entity object at 0x106985e00> attacked by player, has hp: 40
+[DEBUG] <entity.Entity object at 0x107b72570> attacked by player, has hp: 40
+[DEBUG] <entity.Entity object at 0x10690f350> attacked by player, has hp: 40
+[DEBUG] <entity.Entity object at 0x107b72570> attacked player
+[DEBUG] <entity.Entity object at 0x106985e00> attacked by player, has hp: 30
+[DEBUG] <entity.Entity object at 0x107b72570> attacked by player, has hp: 30
+[DEBUG] <entity.Entity object at 0x10690f350> attacked by player, has hp: 30
+[DEBUG] <entity.Entity object at 0x106984510> attacked by player, has hp: 40
+[DEBUG] <entity.Entity object at 0x107b72570> attacked by player, has hp: 20
+[DEBUG] <entity.Entity object at 0x10690f350> attacked by player, has hp: 20
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106984510>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/fireball.png
+	6
+	False
+	999
+	75.0
+	}
+[DEBUG] <entity.Entity object at 0x106645e50> attacked player
+[DEBUG] Entity <entity.Entity object at 0x106645e50> died
+[DEBUG] <entity.Entity object at 0x106984510> attacked by player, has hp: 30
+[DEBUG] <entity.Entity object at 0x106985e00> attacked by player, has hp: 20
+[DEBUG] <entity.Entity object at 0x106984510> attacked by player, has hp: 20
+[DEBUG] <entity.Entity object at 0x106985e00> attacked by player, has hp: 10
+[DEBUG] Entity <entity.Entity object at 0x106985e00> died
+[DEBUG] <entity.Entity object at 0x107b72570> attacked by player, has hp: 10
+[DEBUG] Entity <entity.Entity object at 0x107b72570> died
+[DEBUG] <entity.Entity object at 0x10690f350> attacked by player, has hp: 10
+[DEBUG] Entity <entity.Entity object at 0x10690f350> died
+[DEBUG] <entity.Entity object at 0x106984510> attacked by player, has hp: 10
+[DEBUG] Entity <entity.Entity object at 0x106984510> died
+[DEBUG] <entity.Entity object at 0x1069b4a50> dashed
+[DEBUG] <entity.Entity object at 0x1069b4cd0> dashed
+[DEBUG] Player moved to room 3
+[DEBUG] Player moved to room 4
+[DEBUG] <entity.Entity object at 0x1069b4a50> dashed
+[DEBUG] <entity.Entity object at 0x1069b4cd0> dashed
+[DEBUG] <entity.Entity object at 0x1069b4a50> dashed
+[DEBUG] <entity.Entity object at 0x1069b4cd0> dashed
+[DEBUG] Player moved to room 5
+[DEBUG] Player moved to room 10
+[INFO] Entity spawner at 80 220 created entity<entity.Entity object at 0x1068fdb70>
+[INFO] Entity spawner at 80 220 created entity<entity.Entity object at 0x1068fda90>
+[INFO] Entity spawner at 80 220 created entity<entity.Entity object at 0x106956820>
+[INFO] Entity spawner at 80 220 created entity<entity.Entity object at 0x106645190>
+[INFO] Entity spawner at 80 220 created entity<entity.Entity object at 0x106645fd0>
+[INFO] Entity spawner at 80 220 created entity<entity.Entity object at 0x1066450d0>
+[INFO] Entity spawner at 80 220 created entity<entity.Entity object at 0x1066456d0>
+[INFO] Entity spawner at 80 220 created entity<entity.Entity object at 0x106646150>
+[INFO] Entity spawner at 80 220 created entity<entity.Entity object at 0x106646210>
+[INFO] Entity spawner at 80 220 created entity<entity.Entity object at 0x1066462d0>
+[INFO] Entity spawner at 80 220 created entity<entity.Entity object at 0x106646510>
+[INFO] Entity spawner at 80 220 created entity<entity.Entity object at 0x106646450>
+[DEBUG] <entity.Entity object at 0x106646450> attacked by player, has hp: 11
+[DEBUG] <entity.Entity object at 0x106646510> attacked player
+[DEBUG] <entity.Entity object at 0x1068fdb70> attacked by player, has hp: 11
+[DEBUG] <entity.Entity object at 0x1068fda90> attacked by player, has hp: 11
+[DEBUG] <entity.Entity object at 0x106956820> attacked by player, has hp: 11
+[DEBUG] <entity.Entity object at 0x106645190> attacked by player, has hp: 11
+[DEBUG] <entity.Entity object at 0x106645fd0> attacked by player, has hp: 11
+[DEBUG] <entity.Entity object at 0x1066456d0> attacked by player, has hp: 11
+[DEBUG] <entity.Entity object at 0x106646150> attacked by player, has hp: 11
+[DEBUG] <entity.Entity object at 0x106646210> attacked by player, has hp: 11
+[DEBUG] <entity.Entity object at 0x106646510> attacked by player, has hp: 11
+[DEBUG] <entity.Entity object at 0x1066450d0> attacked by player, has hp: 11
+[DEBUG] <entity.Entity object at 0x106646450> attacked by player, has hp: 1
+[DEBUG] Entity <entity.Entity object at 0x106646450> died
+[DEBUG] <entity.Entity object at 0x1068fdb70> attacked by player, has hp: 1
+[DEBUG] Entity <entity.Entity object at 0x1068fdb70> died
+[DEBUG] <entity.Entity object at 0x1068fda90> attacked by player, has hp: 1
+[DEBUG] Entity <entity.Entity object at 0x1068fda90> died
+[DEBUG] <entity.Entity object at 0x106956820> attacked by player, has hp: 1
+[DEBUG] Entity <entity.Entity object at 0x106956820> died
+[DEBUG] <entity.Entity object at 0x106645190> attacked by player, has hp: 1
+[DEBUG] Entity <entity.Entity object at 0x106645190> died
+[DEBUG] <entity.Entity object at 0x106645fd0> attacked by player, has hp: 1
+[DEBUG] Entity <entity.Entity object at 0x106645fd0> died
+[DEBUG] <entity.Entity object at 0x1066456d0> attacked by player, has hp: 1
+[DEBUG] Entity <entity.Entity object at 0x1066456d0> died
+[DEBUG] <entity.Entity object at 0x106646150> attacked by player, has hp: 1
+[DEBUG] Entity <entity.Entity object at 0x106646150> died
+[DEBUG] <entity.Entity object at 0x106646210> attacked by player, has hp: 1
+[DEBUG] Entity <entity.Entity object at 0x106646210> died
+[DEBUG] <entity.Entity object at 0x106646510> attacked by player, has hp: 1
+[DEBUG] Entity <entity.Entity object at 0x106646510> died
+[DEBUG] <entity.Entity object at 0x1066450d0> attacked player
+[DEBUG] <entity.Entity object at 0x1069b4a50> dashed
+[DEBUG] <entity.Entity object at 0x1069b4cd0> dashed
+[DEBUG] <entity.Entity object at 0x1066450d0> attacked by player, has hp: 1
+[DEBUG] Entity <entity.Entity object at 0x1066450d0> died
+[DEBUG] <entity.Entity object at 0x1066462d0> attacked by player, has hp: 11
+[DEBUG] <entity.Entity object at 0x1066462d0> attacked player
+[DEBUG] <entity.Entity object at 0x1066462d0> attacked by player, has hp: 1
+[DEBUG] Entity <entity.Entity object at 0x1066462d0> died
+[DEBUG] Player moved to room 9
+[INFO] Entity spawner at 80 220 created entity<entity.Entity object at 0x10699cf30>
+[INFO] Entity spawner at 80 220 created entity<entity.Entity object at 0x106990250>
+[INFO] Entity spawner at 80 220 created entity<entity.Entity object at 0x106990c50>
+[INFO] Entity spawner at 80 220 created entity<entity.Entity object at 0x106995e50>
+[INFO] Entity spawner at 80 220 created entity<entity.Entity object at 0x106995c70>
+[DEBUG] <entity.Entity object at 0x106995c70> dashed
+[DEBUG] <entity.Entity object at 0x1069b4a50> dashed
+[DEBUG] <entity.Entity object at 0x1069b4cd0> dashed
+[DEBUG] <entity.Entity object at 0x106995c70> attacked player
+[DEBUG] <entity.Entity object at 0x106995c70> attacked by player, has hp: 100
+[DEBUG] <entity.Entity object at 0x106990250> attacked by player, has hp: 10
+[DEBUG] Entity <entity.Entity object at 0x106990250> died
+[DEBUG] <entity.Entity object at 0x10699cf30> attacked player
+[DEBUG] <entity.Entity object at 0x10699cf30> attacked by player, has hp: 10
+[DEBUG] Entity <entity.Entity object at 0x10699cf30> died
+[DEBUG] <entity.Entity object at 0x106990c50> attacked by player, has hp: 10
+[DEBUG] Entity <entity.Entity object at 0x106990c50> died
+[DEBUG] <entity.Entity object at 0x106995e50> attacked by player, has hp: 10
+[DEBUG] Entity <entity.Entity object at 0x106995e50> died
+[DEBUG] <entity.Entity object at 0x106995c70> attacked by player, has hp: 90
+[DEBUG] <entity.Entity object at 0x106995c70> attacked by player, has hp: 80
+[DEBUG] <entity.Entity object at 0x106995c70> attacked by player, has hp: 70
+[DEBUG] <entity.Entity object at 0x106995c70> attacked by player, has hp: 60
+[DEBUG] <entity.Entity object at 0x1069b4a50> dashed
+[DEBUG] <entity.Entity object at 0x1069b4cd0> dashed
+[DEBUG] <entity.Entity object at 0x106995c70> attacked by player, has hp: 50
+[DEBUG] <entity.Entity object at 0x106995c70> attacked player
+[DEBUG] <entity.Entity object at 0x1069b4a50> dashed
+[DEBUG] <entity.Entity object at 0x1069b4cd0> dashed
+[DEBUG] <entity.Entity object at 0x106995c70> attacked by player, has hp: 40
+[DEBUG] <entity.Entity object at 0x106995c70> attacked player
+[DEBUG] <entity.Entity object at 0x106995c70> attacked by player, has hp: 30
+[DEBUG] <entity.Entity object at 0x106995c70> attacked by player, has hp: 20
+[DEBUG] <entity.Entity object at 0x106995c70> attacked by player, has hp: 10
+[DEBUG] Entity <entity.Entity object at 0x106995c70> died
+[DEBUG] <entity.Entity object at 0x1069b4a50> dashed
+[DEBUG] <entity.Entity object at 0x1069b4cd0> dashed
+[DEBUG] <entity.Entity object at 0x1069b4a50> dashed
+[DEBUG] <entity.Entity object at 0x1069b4cd0> dashed
+[DEBUG] Player moved to room 8
+[INFO_EXTENDED] Loaded screen {
+	/asset/screen/main.png
+	/screen/buttonsmain.txt
+	main
+	}
+[INFO_EXTENDED] Completed level {
+	1
+	1
+	10206
+	}
+[INFO_EXTENDED] Loaded screen {
+	/asset/screen/complete.png
+	/screen/buttonscomplete.txt
+	complete
+	}
+[DEBUG] Mouse clicked at (125, 164)
+[DEBUG] Mouse clicked in bounds of button [0, 500, 0, 500]
+[DEBUG] Clicked button 0
+[INFO_EXTENDED] Loaded screen {
+	/asset/screen/main.png
+	/screen/buttonsmain.txt
+	main
+	}
+[DEBUG] Mouse clicked at (107, 48)
+[DEBUG] Mouse clicked in bounds of button [25, 175, 25, 110]
+[DEBUG] Clicked button 0
+[INFO_EXTENDED] Loaded screen {
+	/asset/screen/lvlselect1.png
+	/screen/buttonslvlselect1.txt
+	lvlselect1
+	}
+[DEBUG] Mouse clicked at (361, 149)
+[INFO_EXTENDED] Entity state loaded {
+	100
+	0
+	True
+	False
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/player.png
+	1
+	True
+	100
+	200
+	}
+[DEBUG] Mouse clicked in bounds of button [270, 455, 65, 170]
+[DEBUG] Clicked button 1
+[DEBUG] 1_2: 1, 6 is the _has for the opened level
+[DEBUG] 1_2: 6;360;60, 7;250;400 is the _beacon for the current level
+[DEBUG] ['1', '6'] are rooms with entity spawners
+[INFO_EXTENDED] Entity state loaded {
+	39
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy1.png
+	5
+	False
+	39
+	60
+	}
+[INFO_EXTENDED] Entity state loaded {
+	39
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy1.png
+	5
+	False
+	39
+	60
+	}
+[INFO_EXTENDED] Entity state loaded {
+	39
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy2.png
+	4
+	False
+	39
+	100
+	}
+[INFO_EXTENDED] Entity state loaded {
+	39
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/enemy2.png
+	4
+	False
+	39
+	100
+	}
+[INFO_EXTENDED] Loaded level 1-2 {
+	1
+	{'room_1_right': 2, 'room_2_left': 1, 'room_2_right': 3, 'room_3_left': 2, 'room_3_right': 4, 'room_4_left': 3, 'room_4_right': 5, 'room_5_left': 4, 'room_5_lower': 10, 'room_10_left': 9, 'room_10_upper': 5, 'room_9_right': 10, 'room_9_lower': 8, 'room_1_lower': 6, 'room_8_lower': 0, 'room_6_upper': 1}
+	{'3_1': [200, 310, 1, 230], '3_2': [200, 310, 300, 500], '4_3': [150, 250, 180, 325], '4_4': [335, 385, 170, 370], '1_1': [0, 0, 0, 0], '2_2': [0, 0, 0, 0]}
+	}
+[DEBUG] Player moved to room 6
+[INFO] Entity spawner at 130 240 created entity<entity.Entity object at 0x106646690>
+[INFO] Entity spawner at 130 240 created entity<entity.Entity object at 0x106646750>
+[INFO] Entity spawner at 130 240 created entity<entity.Entity object at 0x106646810>
+[INFO] Entity spawner at 130 240 created entity<entity.Entity object at 0x1066468d0>
+[INFO_EXTENDED] Entity state loaded {
+	100
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/beacon.png
+	7
+	False
+	100
+	100
+	}
+[DEBUG] <entity.Entity object at 0x106646810> dashed
+[DEBUG] <entity.Entity object at 0x1066468d0> dashed
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106646690>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/fireball.png
+	6
+	False
+	999
+	90.0
+	}
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106646750>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/fireball.png
+	6
+	False
+	999
+	90.0
+	}
+[DEBUG] <entity.Entity object at 0x106646810> attacked by player, has hp: 39
+[DEBUG] <entity.Entity object at 0x1066468d0> attacked by player, has hp: 39
+[DEBUG] <entity.Entity object at 0x106646a50> attacked player
+[DEBUG] Entity <entity.Entity object at 0x106646a50> died
+[DEBUG] Entity <entity.Entity object at 0x106646b10> died
+[DEBUG] <entity.Entity object at 0x1069b4a50> dashed
+[DEBUG] <entity.Entity object at 0x1069b4cd0> dashed
+[DEBUG] <entity.Entity object at 0x106646090> dashed
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106646990>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/beaconprojectile.png
+	6
+	False
+	999
+	100
+	}
+[DEBUG] <entity.Entity object at 0x106646810> attacked by player, has hp: 29
+[DEBUG] <entity.Entity object at 0x1066468d0> attacked by player, has hp: 29
+[DEBUG] <entity.Entity object at 0x106646bd0> attacked player
+[DEBUG] Entity <entity.Entity object at 0x106646bd0> died
+[DEBUG] <entity.Entity object at 0x106646810> attacked by player, has hp: 19
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106646690>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/fireball.png
+	6
+	False
+	999
+	90.0
+	}
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106646750>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/fireball.png
+	6
+	False
+	999
+	90.0
+	}
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106646990>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/beaconprojectile.png
+	6
+	False
+	999
+	100
+	}
+[DEBUG] <entity.Entity object at 0x106646810> attacked by player, has hp: 9
+[DEBUG] Entity <entity.Entity object at 0x106646810> died
+[DEBUG] <entity.Entity object at 0x1066468d0> attacked by player, has hp: 19
+[DEBUG] <entity.Entity object at 0x1066468d0> attacked player
+[DEBUG] <entity.Entity object at 0x106646750> attacked by player, has hp: 39
+[DEBUG] Entity <entity.Entity object at 0x106646d50> died
+[DEBUG] <entity.Entity object at 0x106646690> attacked by player, has hp: 39
+[DEBUG] Entity <entity.Entity object at 0x106646c90> died
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106646990>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/beaconprojectile.png
+	6
+	False
+	999
+	100
+	}
+[DEBUG] <entity.Entity object at 0x106646990> attacked by player, has hp: 102
+[DEBUG] Entity <entity.Entity object at 0x106646e10> died
+[DEBUG] <entity.Entity object at 0x1066468d0> attacked by player, has hp: 9
+[DEBUG] Entity <entity.Entity object at 0x1066468d0> died
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106646690>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/fireball.png
+	6
+	False
+	999
+	90.0
+	}
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106646750>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/fireball.png
+	6
+	False
+	999
+	90.0
+	}
+[DEBUG] <entity.Entity object at 0x106646990> attacked by player, has hp: 92
+[DEBUG] Entity <entity.Entity object at 0x106646ed0> died
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106646990>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/beaconprojectile.png
+	6
+	False
+	999
+	100
+	}
+[DEBUG] <entity.Entity object at 0x106646750> attacked by player, has hp: 29
+[DEBUG] Entity <entity.Entity object at 0x106647050> died
+[DEBUG] <entity.Entity object at 0x106646690> attacked by player, has hp: 29
+[DEBUG] Entity <entity.Entity object at 0x106646f90> died
+[DEBUG] <entity.Entity object at 0x106647110> attacked player
+[DEBUG] Entity <entity.Entity object at 0x106647110> died
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106646990>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/beaconprojectile.png
+	6
+	False
+	999
+	100
+	}
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106646690>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/fireball.png
+	6
+	False
+	999
+	90.0
+	}
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106646750>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/fireball.png
+	6
+	False
+	999
+	90.0
+	}
+[DEBUG] <entity.Entity object at 0x106646990> attacked by player, has hp: 86
+[DEBUG] Entity <entity.Entity object at 0x1066471d0> died
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106646990>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/beaconprojectile.png
+	6
+	False
+	999
+	100
+	}
+[DEBUG] <entity.Entity object at 0x106646690> attacked by player, has hp: 19
+[DEBUG] Entity <entity.Entity object at 0x106647290> died
+[DEBUG] <entity.Entity object at 0x106646750> attacked by player, has hp: 19
+[DEBUG] Entity <entity.Entity object at 0x106647350> died
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106646690>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/fireball.png
+	6
+	False
+	999
+	90.0
+	}
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106646750>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/fireball.png
+	6
+	False
+	999
+	90.0
+	}
+[DEBUG] <entity.Entity object at 0x106646990> attacked by player, has hp: 78
+[DEBUG] Entity <entity.Entity object at 0x106647410> died
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106646990>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/beaconprojectile.png
+	6
+	False
+	999
+	100
+	}
+[DEBUG] <entity.Entity object at 0x106646690> attacked by player, has hp: 9
+[DEBUG] Entity <entity.Entity object at 0x106646690> died
+[DEBUG] Entity <entity.Entity object at 0x1066474d0> died
+[DEBUG] <entity.Entity object at 0x106646750> attacked by player, has hp: 9
+[DEBUG] Entity <entity.Entity object at 0x106646750> died
+[DEBUG] Entity <entity.Entity object at 0x106647590> died
+[DEBUG] <entity.Entity object at 0x106646990> attacked by player, has hp: 70
+[DEBUG] Entity <entity.Entity object at 0x106647650> died
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106646990>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/beaconprojectile.png
+	6
+	False
+	999
+	100
+	}
+[DEBUG] <entity.Entity object at 0x106646990> attacked by player, has hp: 62
+[DEBUG] Entity <entity.Entity object at 0x106647710> died
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106646990>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/beaconprojectile.png
+	6
+	False
+	999
+	100
+	}
+[DEBUG] <entity.Entity object at 0x106646990> attacked by player, has hp: 54
+[DEBUG] Entity <entity.Entity object at 0x1066477d0> died
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106646990>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/beaconprojectile.png
+	6
+	False
+	999
+	100
+	}
+[DEBUG] <entity.Entity object at 0x106647890> attacked player
+[DEBUG] Entity <entity.Entity object at 0x106647890> died
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106646990>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/beaconprojectile.png
+	6
+	False
+	999
+	100
+	}
+[DEBUG] <entity.Entity object at 0x106647950> attacked player
+[DEBUG] Entity <entity.Entity object at 0x106647950> died
+[DEBUG] <entity.Entity object at 0x106646990> attacked by player, has hp: 46
+[DEBUG] <entity.Entity object at 0x106646990> attacked by player, has hp: 36
+[DEBUG] <entity.Entity object at 0x106646990> attacked by player, has hp: 26
+[DEBUG] Projectile spawned from<entity.Entity object at 0x106646990>
+[INFO_EXTENDED] Entity state loaded {
+	999
+	0
+	False
+	True
+	}
+[INFO_EXTENDED] Loaded entity {
+	/asset/sprite/beaconprojectile.png
+	6
+	False
+	999
+	100
+	}
+[DEBUG] <entity.Entity object at 0x106647a10> attacked player
+[DEBUG] Entity <entity.Entity object at 0x106647a10> died
+[DEBUG] <entity.Entity object at 0x106646990> attacked by player, has hp: 18
+[DEBUG] <entity.Entity object at 0x1069b4a50> dashed
+[DEBUG] <entity.Entity object at 0x1069b4cd0> dashed
+[DEBUG] <entity.Entity object at 0x106646090> dashed
+[DEBUG] <entity.Entity object at 0x106646990> attacked by player, has hp: 8
+[DEBUG] Entity <entity.Entity object at 0x106646990> died
+[DEBUG] Player moved to room 1
 [INFO] Program terminated
 [INFO] Saving config...

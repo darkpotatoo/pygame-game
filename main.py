@@ -419,6 +419,13 @@ def main():
 	loadConfig()
 	log(["Loading game..."])
 	pygame.init()
+
+	pygame.joystick.init()
+	if pygame.joystick.get_count() > 0:
+		joystick = pygame.joystick.Joystick(0)
+		joystick.init()
+		print(f"{joystick.get_name()} is connected")
+	
 	mode = "screen"
 	currentScreen = Screen("main", "/asset/screen/main.png", "/screen/buttonsmain.txt")
 	currentLevel = None
@@ -557,20 +564,20 @@ def main():
 					entity.rendering = True
 			renderPlayer(Player)
 			for movable in moveableEntities:
-				if keys[pygame.K_c]:
+				if keys[pygame.K_c] or joystick.get_button(1):
 					entityDash(movable, lastmove)
-				if keys[pygame.K_z]:
+				if keys[pygame.K_z] or joystick.get_button(0):
 					playerAttack()
-				if keys[pygame.K_UP]:
+				if keys[pygame.K_UP] or joystick.get_axis(1) < -0.3:
 					movable.pos.y -= movable.speed * dt
 					lastmove = "w"
-				if keys[pygame.K_DOWN]:
+				if keys[pygame.K_DOWN] or joystick.get_axis(1) > 0.3:
 					movable.pos.y += movable.speed * dt
 					lastmove = "s"
-				if keys[pygame.K_LEFT]:
+				if keys[pygame.K_LEFT] or joystick.get_axis(0) < -0.3:
 					movable.pos.x -= movable.speed * dt
 					lastmove = "a"
-				if keys[pygame.K_RIGHT]:
+				if keys[pygame.K_RIGHT] or joystick.get_axis(0) > 0.3:
 					movable.pos.x += movable.speed * dt
 					lastmove = "d"
 				tryUncrossablesOnMovable(movable, lastmove)
