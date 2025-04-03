@@ -1,5 +1,3 @@
-""" This is not used. """
-
 print("[INIT] Util")
 
 import time

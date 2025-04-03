@@ -148,7 +148,7 @@ class Entity():
 		if (self.ai.ai == 4) and (xdif > 200 or ydif > 200):
 			entityDash(self, "e")
 		if (self.ai.ai == 5):
-			if (xdif > 400 or ydif > 400):
+			if (xdif > 200 or ydif > 200):
 				if Player.pos.x > self.pos.x and Player.pos.y > self.pos.y:
 					self.pos.x += self.speed * dt + randint(int(-50 / self.speed), ceil(50 / self.speed))
 					self.pos.y += self.speed * dt + randint(int(-50 / self.speed), ceil(50 / self.speed))
@@ -176,23 +176,23 @@ class Entity():
 				if Player.pos.x > self.pos.x and Player.pos.y > self.pos.y:
 					self.pos.x -= self.speed * dt / 3
 					self.pos.y -= self.speed * dt / 3
-					tryUncrossablesOnMovable(self, "d")
-					tryUncrossablesOnMovable(self, "w")
+					tryUncrossablesOnMovable(self, "a")
+					tryUncrossablesOnMovable(self, "s")
 				if Player.pos.x < self.pos.x and Player.pos.y > self.pos.y:
 					self.pos.x += self.speed * dt / 3
 					self.pos.y -= self.speed * dt / 3
-					tryUncrossablesOnMovable(self, "a")
-					tryUncrossablesOnMovable(self, "w")
+					tryUncrossablesOnMovable(self, "d")
+					tryUncrossablesOnMovable(self, "s")
 				if Player.pos.x < self.pos.x and Player.pos.y < self.pos.y:
 					self.pos.x += self.speed * dt / 3
 					self.pos.y += self.speed * dt / 3
-					tryUncrossablesOnMovable(self, "a")
-					tryUncrossablesOnMovable(self, "s")
+					tryUncrossablesOnMovable(self, "d")
+					tryUncrossablesOnMovable(self, "w")
 				if Player.pos.x > self.pos.x and Player.pos.y < self.pos.y:
 					self.pos.x -= self.speed * dt / 3
 					self.pos.y += self.speed * dt / 3
-					tryUncrossablesOnMovable(self, "d")
-					tryUncrossablesOnMovable(self, "s")
+					tryUncrossablesOnMovable(self, "a")
+					tryUncrossablesOnMovable(self, "w")
 		if (self.ai.ai == 6):
 			if self.parried == False:
 				if Player.pos.x > self.pos.x and Player.pos.y > self.pos.y:

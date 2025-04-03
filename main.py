@@ -29,6 +29,7 @@ entitiesAlive = False
 kills = 0
 bonus = 0
 temporaryRender = []
+stats = [0,0,0,0,"ERROR"]
 pygame.font.init()
 font = pygame.font.SysFont(None, 32) #Download this at home
 font_small = pygame.font.SysFont(None, 24)
@@ -100,6 +101,7 @@ def renderEntity(entity):
 # 2 = DASH!
 # 3 = +100
 # 4 = Respawned
+# 5 = score viewer
 temporaryRenderTimer = {}
 def renderTemporaries():
 	for object in temporaryRender:
@@ -111,6 +113,7 @@ def renderTemporaries():
 		if temporaryRenderTimer[object[2]] >= object[3]:
 			del temporaryRenderTimer[object[2]]
 			temporaryRender.remove(object)
+#[render object, position, id, object]
 
 #level sel screen
 def levelSelectScreen():
@@ -120,13 +123,15 @@ def levelSelectScreen():
 
 #-- Game --
 def screenClickSuccessHandle(bound):
-	global running, mode, currentScreen, currentLevel, currentRoom
+	global running, mode, currentScreen, currentLevel, currentRoom, levelCompleteScreen, stats
 	log(["Clicked button " + str(bound)], "DEBUG")
 	if currentScreen.name == "main":
 		if bound == 0:
 			levelSelectScreen()
 		if bound == 1:
 			running = False
+		if bound == 2:
+			currentScreen = Screen("scoreviewer1", "/assets/screen/scoreviewer1.png", "/screen/buttonsscoreviewer1.txt")
 	elif currentScreen.name == "pause":
 		if bound == 0:
 			mode = "game"
@@ -160,6 +165,35 @@ def screenClickSuccessHandle(bound):
 		if bound == 6:
 			currentScreen = Screen("main", "/asset/screen/main.png", "/screen/buttonsmain.txt")
 			mode = "screen"
+	elif currentScreen.name == "scoreviewer1":
+		if bound < 6:
+			lastscore=0
+			for i in completedLevels:
+				level = i[1]
+				_score = i[2]
+				if _score <= lastscore:
+					continue
+				if _score > 15000:
+					rank = "S"
+				elif _score >= 9750:
+					rank = "A"
+				elif _score >= 8000:
+					rank = "B"
+				elif _score >= 6000:
+					rank = "C"
+				elif _score >= 5000:
+					rank = "D"
+				else:
+					rank = "F"
+				_leveltime = i[4]
+				lastscore=_score
+				if level == bound+1:
+					stats = [1, level, _score, _leveltime, rank]
+					currentScreen = Screen("scoreviewer-view", "/asset/screen/viewer.png", "/screen/buttonscomplete.txt")
+					return
+		if bound == 6:
+			currentScreen = Screen("main", "/asset/screen/main.png", "/screen/buttonsmain.txt")
+			mode = "screen"
 	elif currentScreen.name == "complete":
 		if bound == 0:
 			currentScreen = Screen("main", "/asset/screen/main.png", "/screen/buttonsmain.txt")
@@ -183,7 +217,7 @@ def endLevel():
 		rank = "F"
 	Player.pos.x=250
 	Player.pos.y=250
-	completedLevels.append([currentLevel.layer, currentLevel.level, score, kills]) #add time to complete, kills, deaths to this
+	completedLevels.append([currentLevel.layer, currentLevel.level, score, kills, leveltime]) #add time to complete, kills, deaths to this
 	log(["Completed level", currentLevel.layer, currentLevel.level, score], "INFO_EXTENDED")
 	writeSaveFile()
 	levelCompleteScreen = [score, leveltime, rank]
@@ -377,7 +411,7 @@ def newPlayerEntity(health, defense, speed):
 def main():
 	global screen, currentScreen, currentLevel, currentRoom
 	global running, mode, dt
-	global leveltime, levelCompleteScreen
+	global leveltime, levelCompleteScreen, stats
 	global entities, moveableEntities, hostileEntities, Player
 
 	loadSaveFile()
@@ -427,6 +461,8 @@ def main():
 						if (currentScreen.checkClickInBounds(event.pos, 0)): screenClickSuccessHandle(0)
 						#quit button
 						if (currentScreen.checkClickInBounds(event.pos, 1)): screenClickSuccessHandle(1)
+						#score viewer
+						if (currentScreen.checkClickInBounds(event.pos, 2)): screenClickSuccessHandle(2)
 					elif currentScreen.name == "pause":
 						#continue button
 						if (currentScreen.checkClickInBounds(event.pos, 0)): screenClickSuccessHandle(0)
@@ -434,6 +470,21 @@ def main():
 						if (currentScreen.checkClickInBounds(event.pos, 1)): screenClickSuccessHandle(1)
 					elif currentScreen.name == "lvlselect1":
 						Player = newPlayerEntity(100, 0, 200)
+						#1-1
+						if (currentScreen.checkClickInBounds(event.pos, 0)): screenClickSuccessHandle(0)
+						#1-2
+						if (currentScreen.checkClickInBounds(event.pos, 1)): screenClickSuccessHandle(1)
+						#1-3
+						if (currentScreen.checkClickInBounds(event.pos, 2)): screenClickSuccessHandle(2)
+						#1-4
+						if (currentScreen.checkClickInBounds(event.pos, 3)): screenClickSuccessHandle(3)
+						#1-5
+						if (currentScreen.checkClickInBounds(event.pos, 4)): screenClickSuccessHandle(4)
+						#1-6
+						if (currentScreen.checkClickInBounds(event.pos, 5)): screenClickSuccessHandle(5)
+						#back
+						if (currentScreen.checkClickInBounds(event.pos, 6)): screenClickSuccessHandle(6)
+					elif currentScreen.name == "scoreviewer1":
 						#1-1
 						if (currentScreen.checkClickInBounds(event.pos, 0)): screenClickSuccessHandle(0)
 						#1-2
@@ -464,6 +515,8 @@ def main():
 				renderBackgroundOverlay("/asset/screen/pause.png")
 			elif currentScreen.name == "lvlselect1":
 				renderBackgroundOverlay("/asset/screen/lvlselect1.png")
+			elif currentScreen.name == "scoreviewer1":
+				renderBackgroundOverlay("/asset/screen/scoreviewer1.png")
 			elif currentScreen.name == "complete":
 				renderBackgroundOverlay("/asset/screen/complete.png")
 				stats = levelCompleteScreen
@@ -473,6 +526,12 @@ def main():
 				screen.blit(font.render("RANK: " + stats[2], True, (0, 0, 0)), (200, 200))
 				screen.blit(font.render("SCORE: " + str(math.ceil(stats[0])), True, (0, 0, 0)), (180, 230))
 				screen.blit(font.render("TIME: " + str(round(stats[1], 2)) + " seconds", True, (0, 0, 0)), (150, 260))
+			elif currentScreen.name == "scoreviewer-view":
+				renderBackgroundOverlay("/asset/screen/complete.png")
+				screen.blit(font_large.render("SCORE FOR " + str(stats[0]) + "-" + str(stats[1]), True, (0, 0, 0)), (120, 150))
+				screen.blit(font.render("RANK: " + stats[4], True, (0, 0, 0)), (200, 200))
+				screen.blit(font.render("SCORE: " + str(math.ceil(stats[2])), True, (0, 0, 0)), (180, 230))
+				screen.blit(font.render("TIME: " + str(round(stats[3], 2)) + " seconds", True, (0, 0, 0)), (150, 260))
 
 		
 		#game render
@@ -518,11 +577,13 @@ def main():
 			changeRoomCheck()
 			if currentRoom in currentLevel.has:
 				if currentLevel.spawner.used[currentRoom] == False:
-					_fl = False
-					for entity in entities:
-						if entity.ai.ai == 7: _fl = True
-					if not _fl:
+					thereisabeacon = False
+					for entit in entities:
+						if entit.ai.ai == 7 or entit.ai.ai == "7":
+							thereisabeacon = True
+					if not thereisabeacon:
 						currentLevel.spawner.spawns(currentRoom)
+					print(thereisabeacon)
 		if pygame.key.get_pressed()[pygame.K_ESCAPE]:
 			if mode=="screen":
 				running = False
@@ -543,7 +604,7 @@ cmsg = ["Cry about it.",
 		]
 
 def game():
-	global screen
+	global screen, running
 	try:
 		log(["Program starting..."])
 		main()

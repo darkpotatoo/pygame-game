@@ -72,6 +72,7 @@ class Level():
 					_beacon = i
 					log([_beacon + " is the _beacon for the current level"], "DEBUG")
 		self.beacon = _beacon.split(": ")[1].split(", ")
+		print(self.beacon)
 		self.spawner = EntitySpawners(str(layer) + "_" + str(level), _has)
 		self.doors = RoomDoors(str(layer) + "_" + str(level))
 		self.uncrossables = RoomUncrossables(str(layer) + "_" + str(level))
